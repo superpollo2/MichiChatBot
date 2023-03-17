@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5dc5b ;
+}
+header {
+  background: #ffba14;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  height: 10vh;
+  margin-bottom: 36px;
+}
+
+header h1 {
+  padding: 15px;
+}
+
+iframe {
+  width: 500px;
+  height: 600px;
+}
+section {
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+section div h2 {
+  text-align: center;
+  padding: 15px;
+
+}
+
+iframe[src="https://console.dialogflow.com/api-client/demo/embedded/9addd871-f536-468e-9af4-6216c2a92913"] {
+  border: none;
+  border-radius: 5%;
+}
